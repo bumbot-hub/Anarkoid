@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anarkoid</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: #161616;">
+        <div id="mainMenu">
+            <h1>Anarkoid</h1>
+            <h6>v. 0.5</h6>
+            <button id="play" onclick="startGame()">Play</button>
+            <br>
+            <button id="scoreboard" onclick="showScoreboard()">Scoreboard</button>
+            <br>
+            <button id="exit" onclick="exit()">Exit</button>
+        </div>
+        <div id="gameOver">
+            <h1>Game over</h1>
+            <h3>Top 3:<br><span id="top3"></span></h3>
+            <h4 id="top3"></h4>
+            <br>
+            <h4>Your score: <span id="playerScore"></span></h4>
+            <label>Nickname: <input id="name" type="text"></label>
+            <span><button onclick="addScore()">Add</button>
+                  <button onclick="document.getElementById('gameOver').style.display = 'none'">Close</button>
+            </span>
+        </div>
+        <div id="players">
+            <img width="36" height="36" onclick="document.getElementById('players').style.display= 'none'" 
+            src="https://img.icons8.com/material-rounded/36/04d46f/close-window.png" alt="close-window"/>
+            <h1>Scoreboard:</h1>
+            <span id="players"></span>
+        </div>
+        <div id="game">
+            <div class="text">
+                <h2>Level <span id="lvl">1</span></h2>
+                <h2>Points  <span id="scrb">000</span></h2>
+            </div>
+            <canvas id="bg" height="875px" width="500px"></canvas>
+        </div>
+        <script src="blocks.js"></script>
+        <script src="ball.js"></script>
+        <script src="platform.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

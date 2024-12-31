@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+h1{
+    font-size: 56px;
+}
+
+h2{
+    padding-left: 10px;
+    display: inline;
+    text-align: center;
+}
+
+h2:first-child{
+    padding-right: 295px;
+}
+
+h3, #players{
+    font-size: 26px;
+}
+
+h4, label{
+    font-size: 20px;
+}
+
+
+button{
+    font-size: 24px;
+    background-color: #04D46F;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+
+button:hover{
+    background-color: #17F154;
+}
+
+#game{
+    display: none;
+    background-color: #000;
+    margin-top: 15px;
+}
+
+#mainMenu{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 185px;
+    background-color: #B400FF;
+    padding: 35px 75px;
+    border-radius: 3px;
+}
+
+#mainMenu>h6{
+    font-weight: 400;
+    margin-top: -10px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+
+#players{
+    display: none;
+    place-items: center;
+    position: absolute;
+    top: 185px;
+    background-color: #B400FF;
+    padding: 35px 75px;
+    border-radius: 3px;
+}
+
+#gameOver{
+    display: none;
+    place-items: center;
+    position: absolute;
+    top: 275px;
+    background-color: #B400FF;
+    padding: 35px 75px;
+    border-radius: 3px;
+}
+
+#players>img{
+    position: relative;
+    left: 150px;
+    float: right;
+}
+
+.text{
+    background-color: #361644;
+    margin-bottom: 5px;
+}
