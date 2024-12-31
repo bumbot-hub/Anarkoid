@@ -14,6 +14,7 @@ A game inspired by the classic Arkanoid, created using HTML, CSS, and JavaScript
     -> Adding more levels.
     -> Enhancing animations and graphics.
     -> Additional challenges (eg.: power-ups from blocks).
+    -> New design
 
 # 🕹️ How to Play?
 
