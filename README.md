@@ -10,6 +10,7 @@ A game inspired by the classic Arkanoid, created using HTML, CSS, and JavaScript
 
 # 🚀 Planned Improvements:
 
+    -> Game Over + Leaderboard Fix 💀
     -> Adding more levels.
     -> Enhancing animations and graphics.
     -> Additional challenges (eg.: power-ups from blocks).
