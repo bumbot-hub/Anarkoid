@@ -8,6 +8,10 @@ A game inspired by the classic Arkanoid, created using HTML, CSS, and JavaScript
   -> Colorful blocks with different durability.  
   -> Local leaderboard saved in the browser.  
 
+### 💻Tech Stack💻
+
+[![Languages](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+
 ### 🔮 Future Improvements 🔮
 
   🟡 Game Over state 💀  
